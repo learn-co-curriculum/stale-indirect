@@ -65,4 +65,4 @@ SpecEnd
 
 ## Hints
 
-  1. The `UITextField` can have an `IBAction` on the `valueChanged` action.
+  1. The `UITextField` can have an `IBAction` on the `didEndOnExit` action.
