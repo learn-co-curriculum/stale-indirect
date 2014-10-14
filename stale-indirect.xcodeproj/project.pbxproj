@@ -12,6 +12,10 @@
 		95EC50E3D5F04C51BD837300 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC375A8C4E4874B3FFC47C /* FISAppDelegate.m */; };
 		A3CA33B08CA1BE9EF0AE335F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0829B7EDC521B34A540DB412 /* libPods-unit_tests.a */; };
 		CB4049A571FA496A9A1FBE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AE7749F50A4C92A9536CEF /* Foundation.framework */; };
+		D80256B919EC85810095261F /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80256B819EC85810095261F /* main.storyboard */; };
+		D8B7A92519ED548400474C0E /* FISCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B7A92419ED548400474C0E /* FISCheckoutViewController.m */; };
+		D8B7A92819ED54AF00474C0E /* FISCart.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B7A92719ED54AF00474C0E /* FISCart.m */; };
+		D8B7A92B19ED54F300474C0E /* FISItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B7A92A19ED54F300474C0E /* FISItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,13 @@
 		ACE3E2B15E61419A87100EEB /* stale-indirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stale-indirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD38E07081D4879BA8C90D6 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C667E1CF4087197E1506BD9F /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D80256B819EC85810095261F /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		D8B7A92319ED548400474C0E /* FISCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCheckoutViewController.h; sourceTree = "<group>"; };
+		D8B7A92419ED548400474C0E /* FISCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCheckoutViewController.m; sourceTree = "<group>"; };
+		D8B7A92619ED54AF00474C0E /* FISCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCart.h; sourceTree = "<group>"; };
+		D8B7A92719ED54AF00474C0E /* FISCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCart.m; sourceTree = "<group>"; };
+		D8B7A92919ED54F300474C0E /* FISItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISItem.h; sourceTree = "<group>"; };
+		D8B7A92A19ED54F300474C0E /* FISItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItem.m; sourceTree = "<group>"; };
 		FDDF36BE4D9641D68EE4F776 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +87,13 @@
 				FDDF36BE4D9641D68EE4F776 /* FISAppDelegate.h */,
 				19CC375A8C4E4874B3FFC47C /* FISAppDelegate.m */,
 				3E30189715464DF19609B771 /* Resources */,
+				D80256B819EC85810095261F /* main.storyboard */,
+				D8B7A92319ED548400474C0E /* FISCheckoutViewController.h */,
+				D8B7A92419ED548400474C0E /* FISCheckoutViewController.m */,
+				D8B7A92619ED54AF00474C0E /* FISCart.h */,
+				D8B7A92719ED54AF00474C0E /* FISCart.m */,
+				D8B7A92919ED54F300474C0E /* FISItem.h */,
+				D8B7A92A19ED54F300474C0E /* FISItem.m */,
 			);
 			path = "stale-indirect";
 			sourceTree = "<group>";
@@ -246,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8530A77AEF4815AF885838 /* Images.xcassets in Resources */,
+				D80256B919EC85810095261F /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B7A92B19ED54F300474C0E /* FISItem.m in Sources */,
+				D8B7A92819ED54AF00474C0E /* FISCart.m in Sources */,
 				95EC50E3D5F04C51BD837300 /* FISAppDelegate.m in Sources */,
+				D8B7A92519ED548400474C0E /* FISCheckoutViewController.m in Sources */,
 				1B49A050A64142508EF55F92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,9 +419,11 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "stale-indirect/Resources/Other-Sources/stale-indirect-Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -415,6 +439,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "stale-indirect/Resources/Other-Sources/stale-indirect-Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"$(inherited)",
@@ -426,6 +451,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
