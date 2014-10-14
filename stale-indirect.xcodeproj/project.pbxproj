@@ -12,6 +12,7 @@
 		95EC50E3D5F04C51BD837300 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC375A8C4E4874B3FFC47C /* FISAppDelegate.m */; };
 		A3CA33B08CA1BE9EF0AE335F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0829B7EDC521B34A540DB412 /* libPods-unit_tests.a */; };
 		CB4049A571FA496A9A1FBE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AE7749F50A4C92A9536CEF /* Foundation.framework */; };
+		D8B7A92F19ED59F200474C0E /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B7A92E19ED59F200474C0E /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		ACE3E2B15E61419A87100EEB /* stale-indirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stale-indirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD38E07081D4879BA8C90D6 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C667E1CF4087197E1506BD9F /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B7A92E19ED59F200474C0E /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		FDDF36BE4D9641D68EE4F776 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				FDDF36BE4D9641D68EE4F776 /* FISAppDelegate.h */,
 				19CC375A8C4E4874B3FFC47C /* FISAppDelegate.m */,
 				3E30189715464DF19609B771 /* Resources */,
+				D8B7A92E19ED59F200474C0E /* main.storyboard */,
 			);
 			path = "stale-indirect";
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8530A77AEF4815AF885838 /* Images.xcassets in Resources */,
+				D8B7A92F19ED59F200474C0E /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
