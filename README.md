@@ -1,7 +1,4 @@
----
-tags: ibaction, iboutlet, uitextfield, views, testing
-languages: objc
----
+
 
 # stale-indirect
 
