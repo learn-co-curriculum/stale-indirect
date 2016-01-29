@@ -64,4 +64,4 @@ SpecEnd
 
   1. The `UITextField` can have an `IBAction` on the `didEndOnExit` action.
 
-<a href='https://learn.co/lessons/stale-indirect' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/stale-indirect' title='stale-indirect'>stale-indirect</a> on Learn.co and start learning to code for free.</p>
